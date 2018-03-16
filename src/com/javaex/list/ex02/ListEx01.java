@@ -8,7 +8,7 @@ public class ListEx01 {
     public static void main(String[] args) {
         List<Point> list = new LinkedList<>(); // 리스트는 한개의 타입만 저장가능 //LinkedList와 ArrayList는 List라는 인터페이스를 구현한것이므로 메소드가 같음.
         // LinkedList와 ArrayList 변경의 편의를 위해 List<> list 이렇게 씀
-        
+
         Point p1 = new Point(1,1);
         Point p2 = new Point(2,2);
         Point p3 = new Point(3,3);
